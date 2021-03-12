@@ -1,3 +1,4 @@
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Usage
 
 Creates a AWS Directory Service directory with logging to an encrypted log group in CloudWatch.  
@@ -55,14 +56,14 @@ This project constitutes a work of the United States Government and is not subje
 
 | Name | Version |
 |------|---------|
-| terraform | >= 0.12 |
-| aws | >= 2.55.0 |
+| terraform | >= 0.13 |
+| aws | ~> 3.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| aws | >= 2.55.0 |
+| aws | ~> 3.0 |
 
 ## Modules
 
@@ -101,3 +102,4 @@ No Modules.
 | Name | Description |
 |------|-------------|
 | directory\_id | The directory identifier. |
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
